@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item android:id="@+id/action_nashlist"-->
+        <!--android:orderInCategory="0"-->
+        <!--android:title="Nashlist"-->
+        <!--android:icon="@drawable/ic_icon"-->
+        <!--app:showAsAction="never"/>-->
+    <item android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@mipmap/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:title="@string/profile"
+        app:showAsAction="never" />
+
+    <!--<item
+        android:id="@+id/action_new_group"
+        android:orderInCategory="100"
+        android:title="@string/new_group"
+        app:showAsAction="never" />-->
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+
+        />
+
+
+
+    <item
+        android:id="@+id/action_moment_settings"
+        android:orderInCategory="100"
+        android:title="Moment Settings"
+        android:visible="false"
+        app:showAsAction="never" />
+
+   <!-- <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/feedback"
+        android:orderInCategory="100"
+        android:title="Feedback"
+        app:showAsAction="never" />
+
+</menu>

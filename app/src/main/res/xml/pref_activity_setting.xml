@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="hide_account"
+        android:title="@string/pref_hide_posts_from"
+        android:summary="0 people"/>
+
+    <Preference
+        android:key="who_can_comment"
+        android:title="@string/pref_who_can_comments_on_my_posts"
+        android:summary="@string/pref_my_contacts_and_followers"
+        />
+
+    <Preference
+        android:key="who_can_repost"
+        android:title="@string/pref_who_can_reposts_on_my_posts"
+        android:summary="@string/pref_my_contacts_and_followers"
+        />
+</PreferenceScreen>

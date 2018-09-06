@@ -1,0 +1,36 @@
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:labelFor="@+id/editText"
+        android:maxLength="10"
+        android:paddingBottom="8dp"
+        android:paddingStart="48dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="8dp"
+        android:textSize="20dp"
+        >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/prefix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:text="+91"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        />
+</FrameLayout>

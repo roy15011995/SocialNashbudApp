@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="send_feedback"
+        android:title="@string/pref_send_feedback"
+        />
+
+    <Preference
+        android:key="terms_and_privacy_policy"
+        android:title="@string/pref_terms_and_privacy_policy"
+        />
+
+</PreferenceScreen>

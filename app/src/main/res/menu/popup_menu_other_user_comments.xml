@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/report_otherUser"
+        android:title="report"
+        android:enabled="true"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/delete_otherUser"
+        android:title="delete"
+        android:enabled="true"
+        app:showAsAction="never"/>
+    <!-- <item
+         android:id="@+id/turn_Off_notification"
+         android:title="turn Off notification"
+         android:enabled="true"
+         app:showAsAction="never"/>
+     <item
+         android:id="@+id/Change_privacy"
+         android:title="Change privacy"
+         android:enabled="true"
+         app:showAsAction="never"
+        />
+     <item
+         android:id="@+id/turn_OnOff_Commenting"
+         android:title="turn On/Off Commenting"
+         android:enabled="true"
+         app:showAsAction="never"/>
+     <item
+         android:id="@+id/turn_OnOff_reposting"
+         android:title="turn On/Off Reposting"
+         android:enabled="true"
+         app:showAsAction="never"/>-->
+</menu>

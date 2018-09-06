@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/colorButton"
+        android:orientation="horizontal"
+        android:id="@+id/linear_background"
+        >
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/back" />
+       <!-- <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorButton"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorButton"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:text="Edit Profile"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:id="@+id/textTopic"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorButton"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:visibility="visible"
+                android:id="@+id/people_linear"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:text="Edit Profile"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textColor="#ffffff"
+                    android:textSize="13sp"
+                    android:id="@+id/no_of_people_request"
+                    />
+            </LinearLayout>
+        </LinearLayout>-->
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="Edit Profile"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/nunito_bold"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:id="@+id/textTopic"
+            />
+
+        <Button
+            android:id="@+id/doneVisible"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@color/colorButton"
+            android:text="Done"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_message_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp"
+    tools:ignore="RtlHardcoded">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:background="@color/lightGray"
+            />
+        <TextView
+            android:id="@+id/item_message_date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/simple_padding_small"
+            android:layout_marginTop="@dimen/simple_padding_large"
+            android:gravity="center"
+            android:text="@string/placeholder"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_small"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="@dimen/simple_padding_small"
+            android:layout_marginTop="@dimen/simple_padding_large"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/lightGray"
+            />
+
+    </LinearLayout>
+   <!-- <TextView
+        android:id="@+id/item_message_body_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/simple_padding_tiny"
+        android:layout_marginLeft="@dimen/simple_padding_medium"
+        android:layout_marginRight="@dimen/simple_padding_huge"
+        android:layout_marginTop="@dimen/simple_padding_tiny"
+        android:elevation="2dp"
+        android:background="@drawable/message_received_chip"
+        android:clickable="true"
+        android:longClickable="true"
+        android:padding="@dimen/simple_padding_medium"
+        android:paddingEnd="@dimen/simple_padding_large"
+        android:paddingStart="@dimen/simple_padding_large"
+        android:text="@string/placeholder"
+        android:textColor="@color/black_de"
+        android:textSize="@dimen/text_size_secondary" />-->
+    <LinearLayout
+        android:id="@+id/linear_message_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/message_received_chip"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/simple_padding_tiny"
+        android:layout_marginLeft="@dimen/simple_padding_medium"
+        android:layout_marginRight="@dimen/simple_padding_huge"
+        android:layout_marginTop="@dimen/simple_padding_tiny"
+        android:elevation="2dp"
+        android:layout_weight="1"
+        android:padding="6dp"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            >
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/gallery"
+                android:visibility="visible"
+                android:id="@+id/item_message_Image"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                />
+            <TextView
+                android:id="@+id/item_message_body_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:longClickable="true"
+                android:paddingEnd="@dimen/simple_padding_large"
+                android:paddingStart="@dimen/simple_padding_large"
+                android:text="@string/placeholder"
+                android:textColor="@color/black_de"
+                android:textSize="@dimen/text_size_secondary"
+                android:paddingTop="3dp"
+                android:visibility="visible"
+                android:layout_gravity="left"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:gravity="right|end"
+            android:layout_weight="0.5"
+            >
+            <TextView
+                android:id="@+id/message_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="10:22"
+                android:textSize="9sp"
+                android:gravity="bottom|end"
+                android:visibility="visible"
+                android:paddingRight="4dp"
+
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

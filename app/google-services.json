@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "602374458697",
+    "firebase_url": "https://nashbud-112f5.firebaseio.com",
+    "project_id": "nashbud-112f5",
+    "storage_bucket": "nashbud-112f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602374458697:android:c00e45d801d00334",
+        "android_client_info": {
+          "package_name": "com.estar.nashbud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602374458697-t1d0acggn05egn6aaets75lugsa4plg9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.estar.nashbud",
+            "certificate_hash": "95f18a5e78c7ae0867ec8a5b0d9775f7b3bdf222"
+          }
+        },
+        {
+          "client_id": "602374458697-qfrnvaq7tsn6r32vlooas5mk6nshsgrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqF7DLBf4j_yA2CPhcFhKUSMwz1Ial_LY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602374458697-qfrnvaq7tsn6r32vlooas5mk6nshsgrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:id="@+id/item_row_discover"
+        >
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/people_discover_pic"
+                android:src="@drawable/user_profile_pic"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_de"
+                android:textSize="16dp"
+
+                android:textStyle="bold"
+                android:gravity="left"
+                android:id="@+id/people_discover_name"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+
+                android:gravity="left"
+                android:id="@+id/people_discover_mobile"
+                android:textColor="@color/dark_gray"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center|end"
+            android:paddingRight="22dp"
+            android:visibility="gone"
+
+            >
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="32dp"
+                android:id="@+id/button_add_people"
+                android:background="@drawable/btn_back"
+                android:text="Add"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:elevation="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/view_line"
+        />
+</LinearLayout>

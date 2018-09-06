@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.estar.nashbud">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-feature android:name="android.hardware.camera2.autofocus" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <application
+        android:name=".utils.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/nashbud"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/nashbud"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,android:label">
+        <activity android:name=".splash.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".camera_package.CameraActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAZ1q8c-k4DeoLdhto6_lPtl_-OXAT4148" />
+
+        <activity
+            android:name=".verify_phone.VerifyPhone"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+        <activity
+            android:name=".chatscreenpages.ChatScreenOne"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".splash.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".verify_phone.VerifyOtp"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".upload_photo.UploadPhoto"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+        <activity
+            android:name=".upload_photo.InviteFriends"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".profile.EditProfilePage"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".optionmenupages.NewGroupPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".optionmenupages.NewBroadcastPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".optionmenupages.SendFeedBackPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bottombarpages.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".profile.MyProfilePage"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chatscreenpages.Chat"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".contacts.ContactList"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chatscreenpages.FullScreenPictureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".thread.ThreadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".profile.FriendsProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chatscreenpages.ChatScreenTest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".optionmenupages.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".chatscreenpages.ChatScreenOne"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustNothing">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.estar.nashbud.chatscreenpages.ChatScreenOne" />
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name=".fcm.InstanceIdService"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".fcm.MessagingService"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/chat" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".verify_phone.Deactivate_Number"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.Settings_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".verify_phone.Change_Number"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.Account_Setting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.DataStorage_andSync"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.Block_Contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.Notifications"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".post.Post"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".post.Google_Search_places" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <activity
+            android:name=".post.Tag_People"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".helper.MultiselectSampleActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".camera_package.ImageSettingActivity" />
+        <activity android:name=".camera_package.ShowAlbumImagesActivity" />
+        <activity
+            android:name=".camera_package.ShowImageActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".bottombarpages.Discover" />
+        <activity
+            android:name=".chatscreenpages.EditPost"
+            android:label="@string/title_activity_edit_post"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".comments.CommentsActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".post.PlacesAutoCompleteActivity" />
+
+        <receiver android:name=".post.Post$MyReceiver">
+            <intent-filter>
+                <action android:name="com.estar.nashbud.USER_ACTION" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".thread.ThreadActivity$MyReceiverThread">
+            <intent-filter>
+                <action android:name="com.estar.nashbud.USER_ACTION_CHAT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".settings.Send_Feedback$SendFeedback">
+            <intent-filter>
+                <action android:name="com.estar.nashbud.USER_ACTION_SENDFEEDBACK" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".thread.OpenGallery" />
+        <activity android:name=".thread.ShowImageChat" />
+        <activity android:name=".chatscreenpages.LikeActivity" />
+        <activity android:name=".settings.Activity_sitting" />
+        <activity android:name=".settings.Hide_Post_From" />
+        <activity android:name=".settings.Activity_Help" />
+        <activity android:name=".settings.Send_Feedback" />
+        <activity android:name=".settings.GalleryActivity" />
+        <activity android:name=".chatscreenpages.TagActivity" />
+        <activity android:name=".bottombarpages.SycnNumber" />
+        <activity android:name=".camera_package.ViewPagerImageView" />
+        <activity android:name=".thread.BigImage_Actiivity" />
+        <activity android:name=".settings.TermandconditionsActivity" />
+        <activity android:name=".profile.ShowMyProfilePost" />
+        <activity android:name=".profile.MyProfileImageView" />
+        <activity android:name=".thread.ShowMessageImageDetails"></activity>
+    </application>
+
+</manifest>

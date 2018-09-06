@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.estar.nashbud.settings.Send_Feedback"
+    android:fitsSystemWindows="true"
+    >
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/app_bar_send_feedback"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Write Feedback Here...."
+        android:id="@+id/write_feedback"
+        />
+
+    <TextView
+        android:id="@+id/text_screenshots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add screenshots here(Optional)"
+        android:textColor="@color/black_de"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="17sp"
+        android:singleLine="true"
+        android:paddingRight="0dp"
+        android:layout_below="@id/write_feedback"
+
+        />
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+        android:id="@+id/add_screen_button"
+        android:background="@drawable/edittext_background"
+        android:layout_below="@id/text_screenshots"
+        android:layout_margin="20dp"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:src="@drawable/plus_add_screen"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text_screenshots"
+        android:visibility="gone"
+        android:id="@+id/linear_photo_send_feedback"
+        >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!--<GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/feedback_screen_row"
+            android:layout_margin="10dp"
+            android:visibility="visible"
+            android:drawSelectorOnTop="true"
+            android:gravity="center"
+            android:numColumns="auto_fit"
+            android:columnWidth="360dp"
+            >
+        </GridView>-->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_slider_send_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

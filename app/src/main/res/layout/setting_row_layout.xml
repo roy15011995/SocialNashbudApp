@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:orientation="horizontal"
+    android:gravity="center|left"
+    >
+<ImageView
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginLeft="40dp"
+    android:src="@drawable/user_settings"
+    android:id="@+id/image_setting"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Account Setting"
+        android:textColor="@color/black_de"
+        android:textSize="17dp"
+        android:fontFamily="@font/nunito_extrabold"
+        android:id="@+id/text_setting"
+        />
+</LinearLayout>
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/lightGray"
+        android:layout_marginLeft="77dp"
+        />-->
+</LinearLayout>

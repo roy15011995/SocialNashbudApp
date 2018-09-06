@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.estar.nashbud.bottombarpages.People_Fragment"
+    android:orientation="vertical"
+    >
+
+    <!--&lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Search User"
+            android:layout_margin="5dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/firebase_user_search_sync"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            />
+
+        <!--<ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/textbox_background"
+            app:srcCompat="@drawable/ic_search_black_24dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/search_btn"
+
+            />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+            android:id="@+id/swipyrefreshlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srl_direction="bottom">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/discover_people_RecyclerView_sync"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:listitem="@layout/discover_people_row"
+            android:background="@color/white"
+            />
+        </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

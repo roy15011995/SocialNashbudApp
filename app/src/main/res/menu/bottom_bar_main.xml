@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bb_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title=""
+        android:enabled="true"
+        app:showAsAction="ifRoom|withText"
+
+        />
+    <item
+        android:id="@+id/bb_request"
+        android:title=""
+        android:icon="@drawable/ic_people_black_24dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom|withText"/>
+   <!-- <item
+        android:id="@+id/bb_camera"
+        android:title=""
+        android:icon="@drawable/ic_photo_camera_black_24dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom|withText"/>-->
+    <item
+        android:id="@+id/bb_discover"
+        android:title=""
+        android:icon="@drawable/ic_explore_black_24dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom|withText"/>
+    <!--<item
+        android:id="@+id/bb_events"
+        android:title=""
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom|withText"/>-->
+</menu>

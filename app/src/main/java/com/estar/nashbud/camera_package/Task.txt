@@ -1,0 +1,17 @@
+Screen Name :        				    Task :
+1. Activity 						Like,Comments, Reposts , tag , Option Menu(edit,delete,turnOff Notification, Change Privacy, turnOn/Off Commenting
+                                        ,turnOn/Off Reposting)
+
+2. Chat								Push Notification, Photo,Vedio,documents,audio Attachment
+
+3. Diary 							Like,Comments, Reposts , tag , Option Menu(edit,delete,turnOff Notification, Change Privacy, turnOn/Off Commenting
+                                        ,turnOn/Off Reposting)
+										
+4. Account Settings                 private account, blocked Contacts , Change Number , Delete all Chats , Deactivate Account
+
+5. Activity							Hide posts from, who can comments on my post, who can reposts on my post,Auto save media to display
+
+6. Data storage          			On mobile data, On wifi , On Roaming 
+
+7. Notification						All notification									
+     

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#faf8f8"
+android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center_vertical"
+    android:text="Add Photo!"
+    android:textColor="@color/colorPrimary"
+    android:textSize="18sp" />
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/card_shadow" />
+
+<TextView
+    android:id="@+id/tv_camera"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:gravity="center_vertical"
+    android:paddingLeft="16dp"
+    android:drawableLeft="@drawable/camera"
+    android:drawablePadding="10dp"
+    android:text="Camera"
+    android:textColor="@color/colorPrimary"
+    android:textSize="16sp" />
+
+<TextView
+    android:id="@+id/tv_gallery"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:gravity="center_vertical"
+    android:drawablePadding="10dp"
+    android:paddingLeft="16dp"
+    android:text="Chose From Gallery"
+    android:textColor="@color/colorPrimary"
+    android:textSize="16sp" />
+
+<TextView
+    android:id="@+id/tv_cancel"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:gravity="center_vertical"
+    android:paddingLeft="16dp"
+    android:text="Cancel"
+    android:textColor="@color/colorPrimary"
+    android:textSize="16sp" />
+</LinearLayout>

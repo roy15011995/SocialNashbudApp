@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".post.PlacesAutoCompleteActivity">
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar_search_place"
+        android:id="@+id/toolbar_search"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_search"
+        android:id="@+id/relative_search"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Find a location here...."
+            android:textColorHint="@color/gray"
+            android:singleLine="true"
+            android:id="@+id/autocomplete_search"
+            android:backgroundTint="@color/black_de"
+
+            />
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@drawable/ic_close_black_24dp"
+            android:id="@+id/clear_text"
+
+            />
+    </RelativeLayout>
+
+
+
+
+
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:id="@+id/recycler_location"
+    android:layout_below="@id/relative_search"
+    android:scrollbars="vertical"
+    >
+
+</android.support.v7.widget.RecyclerView>
+</RelativeLayout>

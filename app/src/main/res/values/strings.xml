@@ -1,0 +1,326 @@
+<resources>
+    <string name="app_name">Nashbud</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="pls_wait_txt">Please wait....</string>
+    <string name="FirstPageText">Discover people from everywhere.Connect with people you wish to follow  to start a conversation or follow their activities.</string>
+    <string name="SecondPageText">All your conversations \n are secured by encryption.No third party applications are allowed to get access to your conversation.</string>
+    <string name="ThirdPageText">Share what is going on, your daily moments and your favourite memories with your Nashbud contacts.</string>
+    <string name="FourthPageText">Search a add \n people from all over the world to connect and follow their real time moments.</string>
+    <string name="new_broadcast">New Broadcast</string>
+    <string name="empty_state_view_activity">Share what’s going on and follow posts \n of your nashbud contacts.</string>
+    <string name="empty_state_view_activity_tap">Tap here to discover people</string>
+    <string name="empty_state_view_diary">All your posts are secured in your \n diary.</string>
+    <string name="no_contacts_requests_yet">No contact requests received yet.</string>
+    <string name="you_have_no_nashbud_contacts_yet">You have no nashbud contacts yet.</string>
+    <string name="new_group">New Group</string>
+    <string name="profile">Edit Profile</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="empty_view_home">Oh oh! Looks like you\'re all alone</string>
+    <string name="empty_view_thread">Send the first message!</string>
+    <string name="hint_message">Type your message..</string>
+    <string name="message_message_copied">Copied to clipboard</string>
+    <string name="clipboard_title_copied_message">Copied message</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="error_loading_user">Couldn\'t load user</string>
+    <string name="large_text">
+
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+    </string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Accounts</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data usage &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>Photos</item>
+        <item>Audio</item>
+        <item>Videos</item>
+        <item>Documents</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">My Notifications</string>
+
+    <string name="pref_title_ringtone">Notification Tone</string>
+    <string name="message_notifications">Message Notifications</string>
+
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <!-- Account Setting Preference-->
+
+    <string name="pref_private_account">Private Account</string>
+    <string name="pref_blocked_contacts">Blocked Contacts</string>
+    <string name="pref_hide_posts_from">Hide posts from</string>
+    <string name="pref_who_can_comments_on_my_posts">Who can comment on my post?</string>
+    <string name="pref_who_can_reposts_on_my_posts">Who can repost my post?</string>
+    <string name="pref_my_contacts_and_followers">My contacts and followers</string>
+    <string name="pref_send_feedback">Send Feedback</string>
+    <string name="pref_terms_and_privacy_policy">Terms and Privacy Policy</string>
+    <string name="pref_change_number">Change Number</string>
+    <string name="pref_delete_all_chats">Delete all Chats</string>
+    <string name="pref_deactivate_account">Deactivate Account</string>
+
+    <string name="pref_private_account_key">Private Account</string>
+    <string name="pref_blocked_contacts_key">Blocked Contacts</string>
+    <string name="pref_change_number_key">Change Number</string>
+    <string name="pref_delete_all_chats_key">Delete all Chats</string>
+    <string name="pref_deactivate_account_key">Deactivate Account</string>
+
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="invite_your_friends">Invite your contacts to <font fgcolor="#303F9F" fgstyle="bold"><b>NASH</b></font><font fgcolor="#ff33b5e5">BUD</font> \n Let them know you are here....</string>
+    <string name="invite_your_contacts">Invite Your Contacts</string>
+    <string name="verify_msg">Please enter your phone number to recieve a verification code</string>
+    <string name="upload_photo_text">Provide a profile photo and \n your full name, Let people know about you.</string>
+    <string name="NoRecent">No recent</string>
+    <string name="my_profile_text"> to add display photos and videos here. Your Profile visitors can see this.</string>
+    <string name="change_number_text1">Changing your number will transfer your\naccount data and setting </string>
+    <string name="change_number_text2">If you have a new phone and new\nnumber,first change your number in your old phone </string>
+    <string name="please_number">Please enter your</string>
+    <string name="please_number_text">old country code and phone number</string>
+    <string name="please_number_text1">new country code and phone number</string>
+    <string name="deactive_number_head">Deactivating your account will log\nyou out of nashbud.Your data\nwill be restored once you login</string>
+    <string name="deactive_number_text">Confirm your number to deactivate your account</string>
+
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+    <string name="label_facebook_login">Firebase + Facebook Login</string>
+    <string name="desc_facebook_login">Use a Facebook Login credential to authenticate with Firebase.</string>
+
+    <string name="label_twitter_login">Firebase + Twitter Login</string>
+    <string name="desc_twitter_login">Use a Twitter Login credential to authenticate with Firebase.</string>
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+
+    <string name="label_phone_auth">Phone Number Authentication</string>
+    <string name="desc_phone_auth">Use a phone number to authenticate with Firebase.</string>
+
+    <string name="label_anonymous_auth">Anonymous Authentication</string>
+    <string name="desc_anonymous_auth">Sign in anonymously and then later upgrade to a full Firebase Auth user.</string>
+
+    <string name="label_custom_auth">Custom Authentication</string>
+    <string name="desc_custom_auth">Use a custom token signed by your own server to authenticate with Firebase.</string>
+
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+    <string name="desc_firebase_ui">Use the FirebaseUI-Android library to authenticate with Firebase.</string>
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Logged in !</string>
+    <string name="signed_out">You are not logged in !</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="start_phone_auth">Login</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+    <string name="phone_title_text">Phone Number</string>
+
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+    <string name="title_activity_search__place__map">Map</string>
+
+
+    <string name="sample_simple_item_list">SimpleItemList Sample</string>
+    <string name="sample_simple_item_list_descr">Filter, Drag&amp;Drop</string>
+    <string name="sample_swipe_list">SwipeList Sample</string>
+    <string name="sample_swipe_list_descr">Swipe, leave-behinds and actions</string>
+    <string name="sample_icon_grid">IconGrid Sample</string>
+    <string name="sample_icon_grid_descr">Grid, Expandable</string>
+    <string name="sample_image_list">ImageList Sample</string>
+    <string name="sample_image_list_descr">View Click Listener</string>
+    <string name="sample_multi_select">MultiSelect Sample</string>
+    <string name="sample_multi_select_descr">MultiSelect, CAB, Remove, Undo</string>
+    <string name="sample_collapsible_multi_select_delete">Expandable MultiSelect Delete Sample</string>
+    <string name="sample_collapsible_multi_select_delete_descr">Expandable, MultiSelect, CAB, Remove</string>
+    <string name="sample_collapsible">Expandable Sample</string>
+    <string name="sample_collapsible_descr">Expandable, Select</string>
+    <string name="sample_sticky_header">StickyHeader Sample</string>
+    <string name="sample_sticky_header_descr">StickyHeader, Select</string>
+    <string name="sample_advanced">Advanced Sample</string>
+    <string name="sample_advanced_descr">Header, StickyHeader, Expandable, CAB, MultiSelect</string>
+    <string name="sample_model_item">ModelItem Sample</string>
+    <string name="sample_model_item_descr">Split up Item and Model</string>
+    <string name="sample_multi_model_item">MultiModelItem Sample</string>
+    <string name="sample_multi_model_item_descr">Split up multiple Items and Models in one ModelAdapter</string>
+    <string name="sample_checkbox_item">CheckBox Sample</string>
+    <string name="sample_checkbox_item_descr">Use FastAdapters internal state with a CheckBox</string>
+    <string name="sample_radiobutton_item">RadioButton Sample</string>
+    <string name="sample_endless_scroll_item">EndlessScroll Sample</string>
+    <string name="sample_radiobutton_item_descr">Use FastAdapters internal state with a RadioButton</string>
+    <string name="sample_endless_scroll_list">EndlessScroll Sample</string>
+    <string name="sample_endless_scroll_list_descr">EndlessScroll, Progress</string>
+    <string name="sample_sort">Sort Sample</string>
+    <string name="sample_sort_descr">Simply sort your items by providing a Comparator</string>
+    <string name="sample_mopub">Mopub Ads Sample</string>
+    <string name="sample_sticky_header_mopub">StickyHeader Mopub Ads Sample</string>
+    <string name="sample_mopub_descr">Simply mopub adapter usage example</string>
+    <string name="sample_sticky_header_mopub_descr">Simple sticky header mopub adapter usage example</string>
+    <string name="sample_realm_list">Realm Sample</string>
+    <string name="sample_realm_list_descr">Realm, Implement IItem interface</string>
+    <string name="sample_diff_util">Diff Util Sample</string>
+    <string name="sample_diff_util_descr">Diff Util, refresh list using DiffUtil</string>
+    <string name="open_source">Open Source</string>
+    <string name="search_title">Suche</string>
+    <string name="action_undo">UNDO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_edit_post">EditPost</string>
+    <string name="term_condition"><p> Privacy Policy Welcome to Nashbud (&quot;Nashbud,&quot; &quot;we,&quot; &quot;us&quot; or &quot;our&quot;)<br />. Nashbud is a e-service provides a fast, beautiful ,fun and personalised way for you to share information,blog,vlogs ,any media or link through our real time content-sharing platform and also find people to follow and connect with them to initiate secured communication. Just post an activity, like an activity ,add comments or repost the posts of your Nashbud contacts and followers.</p>
+
+<p>Our Privacy Policy explains how we collect, use, share and protect information in relation to our mobile services, web site, and any software provided on or in connection with Nashbud services (collectively, the &quot;Service&quot;), and your choices about the collection and use of your information. By using our Service you understand and agree that we are providing a platform for you to post information,blog,vlogs ,any media or link (&quot;User Content&quot;), to the Service and to share User Content among your Nashbud contacts and followers. This means that other User may search for your profile, view your display posts (feature photos/videos),view your profile photo and view the list of your followers and people you follow.Only your Nashbud contacts and followers are allowed share any of your User Content that you make as a &quot;Repost&quot; through the Service, consistent with the terms and conditions of this Privacy Policy and our Terms of Use. Our Policy applies to all visitors, users, and others who access the Service (&quot;Users&quot;). 1. INFORMATION WE COLLECT We collect the following types of information.</p>
+
+<p>Information you provide us directly: Your name, country ,phone number when you register for an Nashbud account. Profile information that you provide for your user profile (e.g., first and last name, picture, phone number). This information allows us to help you or others be &quot;discovered&quot; on Nashbud. User Content (e.g., information,blog,vlogs ,any media or link ) that you post to the Service. Communications between you and Nashbud. For example, we may send you Service-related emails (e.g., your feedback,otp verification,account verification, changes/updates to features of the Service, technical and security notices). Note that you may not opt out of Service-related e-mails. Finding your friends on Nashbud: If you choose, you can use our &quot;Discover&quot; feature to locate other people with Nashbud accounts either through (i) your contacts list, (ii) third-party social media sites or (iii) through a search of names and usernames on Nashbud. If you choose to find your friends through (i) your device's contacts list, then Nashbud will access your contacts list to determine whether or not someone in your phone contacts is using Nashbud and suggest you to connect with those people . If you choose to find your friends through a (ii) third-party social media site, then you will be prompted to set up a link to the third-party service and you understand that any information that such service may provide to us will be governed by this Privacy Policy. If you choose to find your friends (iii) through a search of names or usernames on Nashbud then simply type a name to search and we will perform a search on our Service. Note about &quot;Invite Friends&quot; feature: If you choose to invite someone to the Service through our &quot;Invite friends&quot; feature, you may select a person directly from the contacts list on your device and send a text or email from your personal account. You understand and agree that you are responsible for any charges that apply to communications sent from your device, and because this invitation is coming directly from your personal account, Nashbud does not have access to or control this communication. Analytics information: We use third-party analytics tools to help us measure traffic and usage trends for the Service. These tools collect information sent by your device or our Service, including the web pages you visit, add-ons, and other information that assists us in improving the Serviced. We collect and use this analytics information with analytics information from other Users so that it cannot reasonably be used to identify any particular individual User. Cookies and similar technologies: When you visit the Service, we may use cookies and similar technologies like pixels, web beacons, and local storage to collect information about how you use Nashbud and provide features to you. We may ask advertisers or other partners to serve ads or services to your devices, which may use cookies or similar technologies placed by us or the third party. Log file information: Log file information is automatically reported by your browser each time you make a request to access (i.e., visit) a web page or app. It can also be provided when the content of the webpage or app is downloaded to your browser or device. When you use our Service, our servers automatically record certain log file information, including your web request, Internet Protocol (&quot;IP&quot;) address, browser type, referring / exit pages and URLs, number of clicks and how you interact with links on the Service, domain names, landing pages, pages viewed, and other such information. We may also collect similar information from emails sent to our Users which then help us track which emails are opened and which links are clicked by recipients. The information allows for more accurate reporting and improvement of the Service. Device identifiers: When you use a mobile device like a tablet or phone to access our Service, we may access, collect, monitor, store on your device, and/or remotely store one or more &quot;device identifiers.&quot; Device identifiers are small data files or similar data structures stored on or associated with your mobile device, which uniquely identify your mobile device. A device identifier may be data stored in connection with the device hardware, data stored in connection with the device's operating system or other software, or data sent to the device by Nashbud. A device identifier may deliver information to us about how you browse and use the Service and may help us provide reports or personalized content . Some features of the Service may not function properly if use or availability of device identifiers is impaired or disabled. Metadata: Metadata is usually technical data that is associated with User Content. For example, Metadata can describe how, when and by whom a piece of User Content was collected and how that content is formatted. Users can add or may have Metadata added to their User Content including a hashtag (e.g., to mark keywords when you post a photo), geotag (e.g., to mark your location to a photo), comments or other data. This makes your User Content more personalised and detailed for others and more interactive. If you geotag your photo or tag your photo using other's APIs then, your latitude and longitude will be stored with the photo. (e.g., through a location or map feature) if your photo is made public by you in accordance with your privacy settings. Status Information. We collect information about your online status changes on our Services, such as whether you are online (your “Active Now”), when you last used our Services (your "last active status"), and when you last updated your status message.</p>
+
+<h>2. HOW WE USE YOUR INFORMATION <br /></h>
+
+<p>In addition to some of the specific uses of information we describe in this Privacy Policy, we may use information that we receive to: help you efficiently access your information after you sign in remember information so you will not have to re-enter it during your visit or the next time you visit the Service; provide personalized content and information to you and others, which could include posts made by your contacts and the people you follow. provide, improve, test, and monitor the effectiveness of our Service develop and test new products and features monitor metrics such as total number of visitors, traffic, and demographic patterns diagnose or fix technology problems automatically update the Nashbud application on your device Nashbud or other Users may run contests, special offers or other events or activities (&quot;Events&quot;) on the Service. If you do not want to participate in an Event, do not use the particular Metadata (i.e. hashtag or geotag) associated with that Event.</p>
+
+<p>Safety and Security. We verify accounts and activity, and promote safety and security on and off our Services, such as by investigating suspicious activity or violations of our Terms, and to ensure our Services are being used legally.</p>
+
+<p>No Third-Party Banner Ads. We do not allow third-party banner ads on Nashbud. We have no intention to introduce them, but if we ever do, we will update this policy.</p>
+
+<p>How We Share Information <br /></p>
+
+<p>We may share information about you in the following ways:</p>
+
+<p>With other users of Nashbud. We may share the following information with other Users: Information about you, such as your Name,username,profile picture,website,bio,followers ,people you are following and display (feature) photos or videos. Information about how you have interacted with the services, such as your activity with your Nashbud contacts and followers, and other information that will help users understand your connections with others using the services. For example, because it may not be clear whether a new friend request comes from someone you actually know, we may share whether you and the requestor have Nashbud contacts in common. any additional information you have consented for us to share. content you post or send will be shared with your contacts and followers although your display (feature) photos and videos can be viewed by any user who views your profile ; how widely your content is shared depends on your personal settings and the type of service you are using. For example, an activity may be shared with just a single contact you select.</p>
+
+<p>With third parties. We may share your information with the following third parties: With service providers, sellers, and partners. We may share information about you with service providers who perform services on our behalf, sellers that provide goods through our services, and business partners that provide services and functionality. For more information about data collected by third parties on our services, see below. With third parties for legal reasons. We may share information about you if we reasonably believe that disclosing the information is needed to: comply with any valid legal process, governmental request, or applicable law, rule, or regulation. investigate, remedy, or enforce potential Terms of Service violations. protect the rights, property, and safety of us, our users, or others. detect and resolve any fraud or security concerns. With third parties as part of a merger or acquisition. If Nashbud gets involved in a merger, asset sale, financing, liquidation or bankruptcy, or acquisition of all or some portion of our business to another company, we may share your information with that company before and after the transaction closes.</p>
+
+<p>Third-Party Information <br /></p>
+
+<p>Information Others Provide About You. We receive information other people provide us, which may include information about you. For example, when other users you know use our Services, they may provide your phone number from their mobile address book (just as you may provide theirs), or they may send you a message. Third-Party Providers. We work with third-party providers to help us operate, provide, improve, understand, customize, support, and market our Services. For example, we work with companies to distribute our apps, provide our infrastructure, delivery, and other systems, supply map and places information, process payments, help us understand how people use our Services, and market our Services. These providers may provide us information about you in certain circumstances; for example, app stores may provide us reports to help us diagnose and fix service issues. Third-Party Services. We allow you to use our Services in connection with third-party services. If you use our Services with such third-party services, we may receive information about you from them; for example, if you use the Nashbud share button on a news service to share a news article with your Nashbud contacts or as an activity, or if you choose to access our Services through a mobile carrier’s or device provider’s promotion of our Services. Please note that when you use third-party services, their own terms and privacy policies will govern your use of those services.</p>
+
+<p>Information You And We Share <br /> </p>
+
+<p>You share your information as you use and communicate through our Services, and we share your information to help us operate, provide, improve, understand, customize, support, and market our Services.</p>
+
+<p>Account Information. Your phone number, profile name and photo, online status and status message, last seen status, and receipts may be available to anyone who uses our Services, although you can configure your Services settings to manage certain information available to other users. Your Contacts and Others. Users with whom you communicate may store or reshare your information (including your phone number , messages or activity) with others on and off our Services. You can use your Services settings and the block feature in our Services to manage the users of our Services with whom you communicate and certain information you share. Third-Party Providers. We work with third-party providers to help us operate, provide, improve, understand, customize, support, and market our Services. When we share information with third-party providers, we require them to use your information in accordance with our instructions and terms or with express permission from you. Third-Party Services. When you use third-party services that are integrated with our Services, they may receive information about what you share with them. For example, if you use a data backup service integrated with our Services (such as iCloud or Google Drive), they will receive information about what you share with them. If you interact with a third-party service linked through our Services, you may be providing information directly to such third party. Please note that when you use third-party services, their own terms and privacy policies will govern your use of those services.</p>
+
+<p>Managing Your Information <br /> </p>
+
+<p>If you would like to manage, change, limit, or delete your information, we allow you to do that through the following tools: <br /></p>
+
+<p>Services Settings. You can change your Services settings to manage certain information available to other users. You can manage your contacts, activity, and followers list, or use our block feature to manage the users with whom you communicate. Changing Your Mobile Phone Number, Profile Name and Picture, bio,website ,email and gender. You must change your mobile phone number using our in-app change number feature and transfer your account to your new mobile phone number. You can also change your profile name, profile picture, and userame at any time. Deactivating Your Nashbud Account. You may delete your Nashbud account at any time (including if you want to revoke your consent to our use of your information) using our in-app delete my account feature. When you delete your Nashbud account, your undelivered messages are deleted from our servers as well as any of your other information we no longer need to operate and provide our Services. Be mindful that if you only delete our Services from your device without using our in-app delete my account feature, your information may be stored with us for a longer period. Please remember that when you delete your account, it does not affect the information other users have relating to you, such as their copy of the messages you sent them. Updates To Our Policy</p>
+
+<p>We may amend or update our Privacy Policy. We will provide you notice of amendments to this Privacy Policy, as appropriate, and update the “Last Modified” date at the top of this Privacy Policy. Your continued use of our Services confirms your acceptance of our Privacy Policy, as amended. If you do not agree to our Privacy Policy, as amended, you must stop using our Services. Please review our Privacy Policy from time to time.</p>
+
+</string>
+</resources>

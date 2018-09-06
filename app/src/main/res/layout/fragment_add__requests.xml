@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".bottombarpages.Add_Requests"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight=".12"
+        android:id="@+id/linear_toolbar"
+        >
+        <!--<android.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/toolbar_discover"
+            android:background="@color/colorButton"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            >
+        </android.widget.Toolbar>-->
+
+        <include
+            layout="@layout/header_edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </include>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight=".9"
+        >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:visibility="gone"
+    android:fontFamily="@font/nunito_medium"
+    android:text="Hey ! No Friend Request"
+    android:id="@+id/no_friend_request"
+    android:textSize="15sp"
+    />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:elevation="4dp"
+            android:id="@+id/linear_no_contact_requests"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:visibility="visible"
+                android:src="@mipmap/twoman"
+                />
+            <TextView
+                android:id="@+id/empty_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center"
+                android:fontFamily="@font/nunito_medium"
+                android:visibility="visible"
+                android:layout_marginTop="20dp"
+                android:text="@string/no_contacts_requests_yet"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/empty_textxxx_discover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center"
+                android:fontFamily="@font/nunito_medium"
+                android:visibility="visible"
+                android:layout_marginTop="40dp"
+                android:textSize="20sp"
+                android:text="@string/empty_state_view_activity_tap"
+                android:textColor="@color/fabcolor"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/requests_people_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:listitem="@layout/add_requests_row"
+        />
+    </LinearLayout>
+
+</LinearLayout>

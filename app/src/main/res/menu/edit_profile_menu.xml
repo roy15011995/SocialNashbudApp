@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item android:id="@+id/action_nashlist"-->
+    <!--android:orderInCategory="0"-->
+    <!--android:title="Nashlist"-->
+    <!--android:icon="@drawable/ic_icon"-->
+    <!--app:showAsAction="never"/>-->
+
+    <item
+        android:id="@+id/view_profile"
+        android:orderInCategory="100"
+        android:title="View Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mute_noti"
+        android:orderInCategory="100"
+        android:title="Mute Notification"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clear_chat"
+        android:orderInCategory="100"
+        android:title="Clear Chat"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/block"
+        android:orderInCategory="100"
+        android:title="Block"
+        app:showAsAction="never" />
+
+</menu>

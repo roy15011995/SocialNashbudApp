@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+       android:layout_gravity="center"
+        android:id="@+id/linear_row_user"
+        >
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/add_requests_pic"
+                android:src="@drawable/user_profile_pic"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|top"
+            android:paddingTop="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorButton"
+                android:textSize="18dp"
+                android:text="Mirza Iftekaruddin"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:id="@+id/people_requests_name"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="Mirza Iftekaruddin"
+                android:gravity="left"
+                android:id="@+id/people_requests_mobile"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="2 mutual contacts"
+                android:gravity="left"
+                android:id="@+id/people_requests_mutual_friends"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:paddingRight="22dp"
+                android:visibility="visible"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+
+                >
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/button_add_people_requests"
+                    android:background="@drawable/btn_back"
+                    android:text="Accept"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:elevation="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="remove"
+                    android:gravity="left"
+                    android:id="@+id/people_requests_remove"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/colorButton"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        android:id="@+id/view_add_request"
+        />
+</LinearLayout>
